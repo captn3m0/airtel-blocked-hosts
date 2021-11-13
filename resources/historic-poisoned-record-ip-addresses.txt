@@ -1,4 +1,5 @@
-# This file contains a list of IP addresses that DNS records hijacked by ACT point to.
+# This file contains a list of IP addresses that DNS records hijacked by Airtel point to.
  
-202.83.21.14 #APR-21
-49.205.171.200 #MAR-21
+# Airtel uses a CNAME record pointing to dotblocking.dummy
+
+13.127.247.216 #NOV-21
