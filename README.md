@@ -2,7 +2,7 @@
 [![Statistics](https://img.shields.io/badge/sites-1,362-brightgreen)](https://github.com/captn3m0/airtel-blocked-hosts)
 ![GitHub last commit](https://img.shields.io/github/last-commit/captn3m0/airtel-blocked-hosts?color=blue)
 
-This repository houses a periodically updated list of websites (root domains only) that are decidedly known to be blocked for Airtel Broadband users. A current list of blocked hostnames can be found [here](https://github.com/captn3m0/blocked-hosts/blob/airtel-fiber/airtel-fiber-blocked-hosts.txt).
+This repository houses a periodically updated list of websites that are decidedly known to be blocked for Airtel Broadband users. A current list of blocked hostnames can be found [here](https://github.com/captn3m0/blocked-hosts/blob/airtel-fiber/airtel-fiber-blocked-hosts.txt).
 
 **Note:** The lists published here are not fully representative of all hostnames that might be blocked by Airtel Fiber at a given time.
 
@@ -23,6 +23,10 @@ The scan was run from `AS24560` on a Airtel Premium Plan as [detailed here](http
 # Credits
 
 All of the code and work is based on [qurbat/blocked-hosts](https://github.com/qurbat/blocked-hosts/), which tracks ACT Fibernet in Bangalore. Please see the upstream for methodology, reproducibility instructions, and other notes.
+
+# Difference from upstream
+
+The upstream repository checks only the root-domains, because of how ACT's blocking is implemented. This does not, and the results may look different even if the same domain is blocked (such as this list containing a `www` prefix).
 
 # LICENSE
 
