@@ -10,10 +10,16 @@ This repository houses a periodically updated list of websites (root domains onl
 |----------------|--------------|----------------------------|----------------------------------|
 | Nov 13 , 2021  | 4281         | -                          | -                                |
 
+# Replication Instructions
+
+The `input.txt` file is generated from the same primary sources as upstream, but limits itself to 100k domains from Alexa instead of 10M to keep the scan reasonably timed.
+
+Airtel uses a CNAME to `dotblocking.dummy` to block DNS queries, so the output needs to be filtered accordingly.
+
 # Debug Details
 
 The scan was run from `AS24560`.
 
 # Credits
 
-All of the code and work is based on [qurbat/blocked-hosts](https://github.com/qurbat/blocked-hosts/), which tracks ACT Fibernet in Bangalore.
+All of the code and work is based on [qurbat/blocked-hosts](https://github.com/qurbat/blocked-hosts/), which tracks ACT Fibernet in Bangalore. Please see the upstream for methodology, reproducibility instructions, and notes.
