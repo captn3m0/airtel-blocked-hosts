@@ -1,4 +1,4 @@
-# blocked-hosts
+# airtel-blocked-hosts
 [![Statistics](https://img.shields.io/badge/sites-1,362-brightgreen)](https://github.com/captn3m0/airtel-blocked-hosts)
 ![GitHub last commit](https://img.shields.io/github/last-commit/captn3m0/airtel-blocked-hosts?color=blue)
 
@@ -22,4 +22,8 @@ The scan was run from `AS24560` on a Airtel Premium Plan as [detailed here](http
 
 # Credits
 
-All of the code and work is based on [qurbat/blocked-hosts](https://github.com/qurbat/blocked-hosts/), which tracks ACT Fibernet in Bangalore. Please see the upstream for methodology, reproducibility instructions, and notes.
+All of the code and work is based on [qurbat/blocked-hosts](https://github.com/qurbat/blocked-hosts/), which tracks ACT Fibernet in Bangalore. Please see the upstream for methodology, reproducibility instructions, and other notes.
+
+# LICENSE
+
+This is licensed under WTFPL. See COPYING file for the full text.
