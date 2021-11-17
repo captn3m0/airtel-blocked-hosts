@@ -10,6 +10,8 @@ This repository houses a periodically updated list of websites that are decidedl
 |----------------|--------------|----------------------------|----------------------------------|
 | Nov 13 , 2021  | 1362         | -                          | -                                |
 
+If you are a journalist writing about this list, please [see this fact sheet](https://github.com/captn3m0/airtel-blocked-hosts/wiki#fact-sheet).
+
 # Replication Instructions
 
 The `input.txt` file is generated from the same primary sources as upstream, but limits itself to 100k domains from Alexa instead of 10M to keep the scan reasonably timed.
